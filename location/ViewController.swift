@@ -17,7 +17,9 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         super.viewDidLoad()
 
         locationManager.requestAlwaysAuthorization() // really basic, even while in background
-        locationManager.requestWhenInUseAuthorization() // less intrusive
+        //locationManager.requestWhenInUseAuthorization() // less intrusive
+        locationManager.delegate = self
+        locationManager.startUpdatingLocation()
     }
 
     override func didReceiveMemoryWarning() {
