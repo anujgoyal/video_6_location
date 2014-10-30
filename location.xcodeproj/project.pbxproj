@@ -13,6 +13,7 @@
 		E21CEBBA1A01F30600EE246D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E21CEBB91A01F30600EE246D /* Images.xcassets */; };
 		E21CEBBD1A01F30600EE246D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21CEBBB1A01F30600EE246D /* LaunchScreen.xib */; };
 		E21CEBC91A01F30600EE246D /* locationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21CEBC81A01F30600EE246D /* locationTests.swift */; };
+		E2AE203F1A01F44A00030782 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AE203E1A01F44A00030782 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E21CEBC21A01F30600EE246D /* locationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21CEBC71A01F30600EE246D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21CEBC81A01F30600EE246D /* locationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationTests.swift; sourceTree = "<group>"; };
+		E2AE203E1A01F44A00030782 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2AE203F1A01F44A00030782 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		E21CEBA41A01F30500EE246D = {
 			isa = PBXGroup;
 			children = (
+				E2AE203E1A01F44A00030782 /* CoreLocation.framework */,
 				E21CEBAF1A01F30600EE246D /* location */,
 				E21CEBC51A01F30600EE246D /* locationTests */,
 				E21CEBAE1A01F30600EE246D /* Products */,
